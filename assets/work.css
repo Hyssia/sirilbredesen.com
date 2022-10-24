@@ -1,0 +1,53 @@
+* {
+    padding: 0; 
+    margin: 0;
+}
+
+.gallery_group {
+    position: relative;
+    top: 100px;
+}
+
+.gallery {
+    position: relative;
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-auto-rows: 350px;
+    grid-auto-flow: dense;
+    grid-column-start: 2;
+}
+
+.gallery div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    transition: all 400ms ease;
+}
+
+.gallery div img:hover {    
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    box-shadow: 5px 5px 15px #888888;
+    transform: scale(1.05);
+}
+
+.v-stretch {
+    grid-row: span 2;
+}
+
+.h-stretch {
+    grid-row: span 2;
+}
+
+.big-stretch {
+    grid-row: span 2;
+    grid-column: span 2;
+}
