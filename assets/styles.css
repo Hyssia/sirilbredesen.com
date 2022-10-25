@@ -64,7 +64,8 @@ body {
 .siril {
     position: absolute;
     top: 450px;
-    padding-left: 300px;
+    margin-left: 250px;
+    left: 50%;
     font-size: 3rem;
     z-index: 2;
     margin: 0;
