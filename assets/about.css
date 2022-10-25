@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about_container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    margin-top: 30rem;
+}
+
+.about p {
+    font-weight: 600;
+}
+
