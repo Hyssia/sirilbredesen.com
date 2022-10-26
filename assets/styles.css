@@ -173,6 +173,7 @@ footer {
     bottom: 2rem;
     font-size: 20px;
     text-align: right;
+    z-index: 200;
 }
 
 
@@ -223,16 +224,19 @@ footer {
     }
 }
 
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 600px) {
     .siril {
         position: absolute;
-        top: 34.8rem;
-        margin-left: 250px;
-        left: 20%;
+        top: 35rem;
         font-size: 2rem;
         z-index: 2;
-        margin: 0;
-        justify-content: space-between;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%
+        margin-left: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 
     .mainimage {
@@ -242,9 +246,10 @@ footer {
         align-items: center;
         margin: 0 auto;
         max-width: 700px;
-        top: 2rem;
-        height: 50rem;
+        top: 15rem;
+        height: 20rem;
         z-index: 1;
+        width: 100%
     }
     
     .mainimage img {
@@ -270,7 +275,7 @@ footer {
     }
     
     .siril h2 {
-        padding-left: 50px;
+        padding-left: 1rem;
         font-size: 2rem;
     }
     
