@@ -5,8 +5,7 @@
 
 .film_group {
     position: relative;
-    top: 1rem;
-    
+    top: 1rem;   
 }
 
 .film {
@@ -36,16 +35,20 @@
 @media screen and (max-width: 844px) {
     .film {
         grid-template-columns: repeat(2,1fr);
-        grid-auto-rows: 5rem;
-        grid-gap: 1rem;
+        grid-auto-rows: 4rem;
+        grid-gap: 0.5rem;
         grid-auto-flow: dense;
     }
     iframe {
         width: 100%;
         margin: 0 auto;
-        height: 5rem;
+        height: 4rem;
     }
     .films h1 {
         display: none;
+    }
+    .film_group {
+        position: relative;
+        top: 1rem;   
     }
 }
