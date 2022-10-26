@@ -18,8 +18,8 @@
 }
 
 
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 600px) {
     .about_container {
-        margin-top: 15rem;
+        margin-top: 8rem;
     }
 }
