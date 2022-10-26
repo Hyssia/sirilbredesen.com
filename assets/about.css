@@ -17,3 +17,9 @@
     font-weight: 600;
 }
 
+
+@media screen and (max-width: 844px) {
+    .about_container {
+        margin-top: 15rem;
+    }
+}

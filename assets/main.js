@@ -22,3 +22,4 @@ closeNavBtn.addEventListener('click', closeNav);
 nav.querySelectorAll('li a').forEach(navLink => {
     navLink.addEventListener('click', closeNav);
 })
+
