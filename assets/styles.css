@@ -7,7 +7,7 @@
     --container-width-lg: 88%;
     --container-width-md: 92%;
 
-    --transition: all 200ms ease;
+    --transition: all 250ms ease;
 }
 
 * {
@@ -275,9 +275,14 @@ footer {
         z-index: 2;
     }
     
+    .siril h1 {
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    }
+
     .siril h2 {
         padding-left: 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .siril h3 {
