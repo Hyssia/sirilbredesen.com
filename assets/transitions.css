@@ -1,0 +1,32 @@
+@keyframes transitionIN {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+
+.mainimage{
+    animation: transitionIN 0.75s;
+}
+
+.siril{
+    animation: transitionIN 4s;
+}
+
+.siril h3{
+    animation: transitionIN 8s;
+}
+
+.gallery{
+    animation: transitionIN 1s;
+}
+
+.about{
+    animation: transitionIN 1s;
+}
