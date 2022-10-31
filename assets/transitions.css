@@ -16,11 +16,11 @@
 }
 
 .siril{
-    animation: transitionIN 4s;
+    animation: transitionIN 2s;
 }
 
 .siril h3{
-    animation: transitionIN 8s;
+    animation: transitionIN 4s;
 }
 
 .gallery{
