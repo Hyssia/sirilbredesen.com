@@ -1,0 +1,38 @@
+.video_container {
+    position: relative;
+    top: 100px;
+}
+
+.videos {
+    position: relative;
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-auto-rows: 350px;
+    grid-auto-flow: dense;
+    grid-column-start: 2;
+}
+
+.videos div iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+@media screen and (max-width: 844px) {
+    .gallery {
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        grid-auto-rows: 150px;
+    }
+
+}
