@@ -6,6 +6,7 @@
 .gallery_group {
     position: relative;
     top: 100px;
+    padding-bottom: 6rem;
 }
 
 .gallery {
