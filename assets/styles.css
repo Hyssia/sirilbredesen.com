@@ -286,14 +286,14 @@ footer {
         align-items: center;
         margin: 0 auto;
         max-width: 700px;
-        top: 5rem;
+        top: 8rem;
         height: 20rem;
         z-index: 1;
         width: 100%
     }
     
     .mainimage img {
-        height: 10rem;
+        height: 15rem;
         width: 100%;
         z-index: 1;
         filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
