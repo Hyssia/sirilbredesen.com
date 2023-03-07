@@ -7,9 +7,7 @@
 .about_container {
     display: flex;
     justify-content: center;
-    margin: auto;
-    width: 50%;
-    height: 100%;
+    align-items: center;
     margin-top: 20rem;
 }
 
@@ -17,9 +15,22 @@
     font-weight: 600;
 }
 
+.about {
+    width: 50%;
+    height: 50vh;
+}
+
 
 @media screen and (max-width: 600px) {
     .about_container {
         margin-top: 8rem;
+    }
+    .about p {
+        font-weight: 400;
+    }
+
+    .about {
+        width: 85%;
+        height: 50vh;
     }
 }
