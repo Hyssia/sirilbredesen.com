@@ -300,6 +300,8 @@ footer {
         /* filter: gray; /* IE6-9 */
         /* -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
         /*transition: var(--transition); */
+        -webkit-filter: grayscale(0%);
+        filter:none;
     }
     
     .mainimage img:hover {
