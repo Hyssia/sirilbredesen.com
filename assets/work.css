@@ -31,11 +31,16 @@
     /*filter: gray; /* IE6-9 */
     /*-webkit-filter: grayscale(0%); /* Chrome 19+ & Safari 6+ */
     /*transition: all 400ms ease;*/
+
+}
+
+.fit {
+    object-fit: fill !important;
 }
 
 .gallery div img:hover {    
     filter: none;
-   /* -webkit-filter: grayscale(0%);*/
+    -webkit-filter: grayscale(0%);
     box-shadow: 5px 5px 15px #888888;
     transform: scale(1.01);
 }
