@@ -252,7 +252,7 @@ footer {
     }
     .mainimage img:hover {
         filter: none;
-        height: 30rem;
+        height: 15rem;
         -webkit-filter: grayscale(0%);
     }
     .siril {
