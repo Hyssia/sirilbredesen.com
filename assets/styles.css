@@ -192,7 +192,9 @@ footer {
         position: relative;
     }
     .nav__socials {
-        display: none;
+        display: block;
+        position: relative;
+        margin-left: 60vw;
     }
     .nav__links {
         position: absolute;
@@ -336,5 +338,10 @@ footer {
     
     .siril h3 {
         font-size: 0.8rem;
+    }
+    .nav__socials {
+        display: block;
+        position: relative;
+        margin-left: 45vw;
     }
 }
