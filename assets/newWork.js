@@ -31,9 +31,7 @@ listAll(imagesRef)
       // Add the random class to the inner div
       imageDiv.classList.add(randomClass);
 
-      // Get the download URL for each image
       getDownloadURL(imageRef).then(function (url) {
-        console.log('Image URL:', url);
         // Create an image element and set its source to the download URL
         var img = document.createElement('img');
         img.src = url;
