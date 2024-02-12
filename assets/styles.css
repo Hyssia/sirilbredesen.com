@@ -113,7 +113,7 @@ img {
 /* ---------- NAV ----------- */
 
 nav {
-  height: 5rem;
+  height: 6rem;
   width: 100vw;
   display: grid;
   place-items: center;
