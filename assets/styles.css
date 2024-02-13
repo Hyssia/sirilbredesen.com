@@ -190,7 +190,7 @@ footer {
     right: 0;
     flex-direction: column;
     gap: 0;
-    display: none;
+    /* display: none; */
     z-index: 100;
   }
   .nav__links li {
