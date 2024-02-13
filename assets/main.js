@@ -44,22 +44,15 @@ if (isSmallScreen || isiPad) {
     }
   };
 
-  openNavBtn.addEventListener('click', toggleNav);
-  closeNavBtn.addEventListener('click', toggleNav);
+  const isTouchDevice = 'ontouchstart' in document.documentElement;
+  const clickEvent = isTouchDevice ? 'touchend' : 'click';
 
-  // Use 'touchend' event for iPad
-  if (isiPad) {
-    openNavBtn.addEventListener('touchend', toggleNav);
-    closeNavBtn.addEventListener('touchend', toggleNav);
-    nav.querySelectorAll('li a').forEach(navLink => {
-      navLink.addEventListener('touchend', toggleNav);
-    });
-  } else {
-    // Use 'click' event for other devices
-    nav.querySelectorAll('li a').forEach(navLink => {
-      navLink.addEventListener('click', toggleNav);
-    });
-  }
+  openNavBtn.addEventListener(clickEvent, toggleNav);
+  closeNavBtn.addEventListener(clickEvent, toggleNav);
+
+  nav.querySelectorAll('li a').forEach(navLink => {
+    navLink.addEventListener(clickEvent, toggleNav);
+  });
 }
 
 const logo = document.querySelector('.nav__logo');
