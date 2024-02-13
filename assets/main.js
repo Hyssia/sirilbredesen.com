@@ -1,4 +1,4 @@
-if (window.innerWidth < 768 && /iPad/i.test(navigator.userAgent)) {
+if (window.innerWidth < 768) {
   const nav = document.querySelector('.nav__links');
   const openNavBtn = document.querySelector('#nav__toggle-open');
   const closeNavBtn = document.querySelector('#nav__toggle-close');
